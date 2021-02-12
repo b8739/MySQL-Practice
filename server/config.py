@@ -4,7 +4,7 @@ db = {
     'password' : 'root',		# 2)
     'host'     : 'localhost',	# 3)
     'port'     : 3306,			# 4)
-    'database' : 'attic'		# 5)
+    'database' : 'newDatabase'		# 5)
 }
 
 DB_URL = f"mysql+mysqlconnector://{db['user']}:{db['password']}@{db['host']}:{db['port']}/{db['database']}?charset=utf8"
